@@ -1,0 +1,305 @@
+#AboutMeBlock{
+    background-image: url("img/background about me.jpg");
+    background-size: 100%;
+}
+.header{
+    color: #d5d6d4;
+    margin: 3%;
+    font-size: 12px;
+    text-decoration: none;
+}
+.header:hover{
+    border: #d5d6d4 solid 1px;
+    padding: 1%;
+    transition: 1s;
+}
+#link\ location{
+    margin-left: 52%;
+}
+
+
+#MyPhoto{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+#background\ photo{
+    background-color: #d5d6d4;
+    width: 24%;
+    height: 600px;
+    margin: 7%;
+    padding: 50px;
+
+}
+#NameSurname{
+    text-align: center;
+    font-size: 30px;
+
+}
+#Job{
+    text-align: center;
+    font-size: 15px;
+    color: #585956;
+}
+
+
+#hi{
+    background-color: #636363;
+    width: 130px;
+    height: 70px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#AboutMe{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+#AboutMe\ Ps{
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+#RightBlock{
+    margin-top: 150px;
+}
+
+.wrapper{
+    display: flex;
+}
+#download{
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #d5d6d4;
+    color: #d5d6d4;
+}
+#download:hover{
+    background-color: #d5d6d4;
+    color: #585956;
+
+}
+h1{font-size: 1000px}
+
+
+
+
+#skills{
+    text-align: center;
+    font-size: 35px;
+    color: #363534;
+}
+#SkillsText{
+    text-align: center;
+    font-size: 22px;
+    color: #585956;
+}
+
+#OOP{
+    border-left: 1px solid black;
+    height: 300px;
+    margin-left: 300px;
+}
+#Python{
+    border-left: 1px solid black;
+    height: 230px;
+    margin-left: 70px;
+}
+#HTML\ \/\ Сss{
+    border-left: 2px solid black;
+    height: 450px;
+    margin-left: 70px;
+}
+#Javascript{
+    border-left: 2px solid black;
+    height: 230px;
+    margin-left: 70px;
+}
+#DBMS{
+    border-left: 2px solid black;
+    height: 280px;
+    margin-left: 70px;
+}
+#Java{
+    border-left: 1px solid black;
+    height: 150px;
+    margin-left: 70px;
+}
+#PHP{
+    border-left: 2px solid black;
+    height: 410px;
+    margin-left: 70px;
+}
+
+
+
+#PortfolioBlock{
+    background-color: #73787a;
+}
+#portfolio{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+#PortfolioText{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.PortfolioButton{
+    border: 1px solid white;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    color: #d5d6d4;
+    padding-top:  20px;
+    padding-left: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 10;
+}
+#location\ button{
+    margin-left: 300px;
+}
+.PortfolioButton:hover{
+    background-color: #d5d6d4;
+    color: black;
+    transition: 1s;
+}
+
+
+
+
+.rectangle {
+    counter-reset: li;
+    list-style: none;
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rectangle a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #D3D4DA;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+.rectangle a:hover {background: #DCDDE1;}
+.rectangle a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #9097A2;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.rectangle a:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+.rectangle a:hover:after {
+    left: -.5em;
+    border-left-color: #9097A2;
+}
+
+#courses{
+    text-align: center;
+    color: #585956;
+    font-size: 35px;
+}
+#CoursesText{
+    text-align: center;
+    color: #73787a;
+    font-size: 22px;
+}
+.line{
+    border-left: 1px solid black;
+    height: 280px;
+    margin-left: 20px;
+}
+.list{
+    margin-bottom: 50px;
+    list-style: none;
+    color: #444444;
+}
+#info{
+    text-align: center;
+    color: #363534;
+    font-size: 35px;
+}
+#InfoText{
+    text-align: center;
+    color: #585956;
+    font-size: 22px;
+}
+#ToCenter{
+    margin-left: 300px;
+}
+
+
+#experience{
+    text-align: center;
+    color: #363534;
+    font-size: 35px;
+}
+#ExperienceText{
+    text-align: center;
+    color: #585956;
+    font-size: 22px;
+}
+
+
+
+.ContactList{
+    margin-bottom: 50px;
+    list-style: none;
+    color: #49494a;
+    margin-left: 500px;
+}
+.contact{
+    text-align: center;
+    color: #363534;
+    font-size: 35px;
+}
+#ContactText{
+    text-align: center;
+    color: #343536;
+    font-size: 22px;
+}
+.SocialButton{
+    text-decoration: none;
+    color:#303640;
+}
+.form{
+    margin-left: 500px;
+    border-radius: 3px;
+}
+#submit{
+    margin-left: 800px;
+    width: 100px;
+    height: 50px;
+    background-color: #909399;
+    color: #d5d6d4;
+    border-radius: 30px;
+}
+#submit:hover{
+    background-color: #303640;
+}
